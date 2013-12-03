@@ -35,6 +35,7 @@ find $SOURCE_ABSOLUTE_PATH\
     -name "*.hpp" -or\
     -name "*.cxx" -or\
     -name "*.hxx" -or\
+    -name "*.ipp" -or\
     -name "*.cc" -or\
     -name "*.c" -or\
     -name "*.h"\
