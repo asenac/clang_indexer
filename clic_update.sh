@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 SOURCE_PATH=$1
 SOURCE_ABSOLUTE_PATH=`cd $SOURCE_PATH; pwd`
 
