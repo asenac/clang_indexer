@@ -21,8 +21,10 @@ etc.
 
 Installation
 ------------
+```
 sudo apt-get install libdb5.3++-dev
 mkdir build
 cd build
 cmake -DCMAKE_FIND_ROOT_PATH=$HOME/local/clang -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/local/clang_indexer ..
 make && make install
+```
