@@ -18,3 +18,11 @@ Please note that this is an early stage of a little project that I've been doing
 life easier.  It has very sharp edges and I haven't really invested much effort in making it easy to
 use.  Use at your own peril, it will destroy your code, format your hard drive, eat your children,
 etc.
+
+Installation
+------------
+sudo apt-get install libdb5.3++-dev
+mkdir build
+cd build
+cmake -DCMAKE_FIND_ROOT_PATH=$HOME/local/clang -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=$HOME/local/clang_indexer ..
+make && make install

@@ -41,3 +41,6 @@ target_link_libraries(clic_rm
     ${ZLIB_LIBRARIES}
     ${DB_LIBRARIES}
 )
+
+install(TARGETS clic_rm clic_add clic_clear DESTINATION bin)
+install(FILES ${CMAKE_SOURCE_DIR}/clic_update.sh  DESTINATION bin)
